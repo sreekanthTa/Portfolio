@@ -263,13 +263,16 @@ ul, ol {
 .hero-image {
     flex: 1;
     position: relative;
-    max-width: 450px;
+    max-width: 400px;
+    max-height: 300px;
 }
 
 .hero-image img {
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-xl);
     border: 4px solid rgba(79, 70, 229, 0.2);
+    max-height: 300px;
+    width: auto;
 }
 
 /* ===== SECTION COMMON STYLES ===== */
@@ -312,13 +315,15 @@ section {
 
 .about-image {
     flex: 1;
-    max-width: 400px;
+    max-width: 350px;
 }
 
 .about-image img {
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-lg);
     border: 4px solid rgba(79, 70, 229, 0.2);
+    max-height: 250px;
+    width: auto;
 }
 
 .about-text {
@@ -475,7 +480,7 @@ section {
 }
 
 .project-image {
-    height: 200px;
+    height: 150px;
     overflow: hidden;
 }
 
